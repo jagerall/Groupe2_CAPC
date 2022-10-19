@@ -1,0 +1,67 @@
+
+.actuality{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom:100px;
+}
+
+.article-full-width {
+    display: flex;
+    min-width: 1144px;
+    width : 80%;
+}
+
+.article-half-width {
+    width: 30%;
+    min-width: 562px;
+    display: flex;
+}
+
+
+.information {
+    background-color: beige;
+    flex: 1;
+    padding: 16px;
+}
+
+.article-full-width .content
+{
+    height:316px;
+}
+
+.content{
+    height: 340px;
+    box-sizing:border-box;
+    background-color: green;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.content button{
+    justify-self: flex-end;
+    align-self:flex-end;
+}
+
+
+p{
+    font-size:14px;
+}
+
+.actuality_div{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* 
+- il faut bien mettre les blocs de texte avec les images
+- il faut mettre les boutons flèche
+- il faut mettre les polices, couleurs
+*/
