@@ -34,7 +34,7 @@ h2 {
     color: var(--white-color);
 }
 
-date {
+time {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -127,6 +127,12 @@ h8 {
 
 .blueviewmore {
     background-color: var(--blue-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none
 }
 
 .blackarrow {
