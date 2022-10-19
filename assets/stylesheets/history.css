@@ -1,0 +1,18 @@
+.history{
+    margin-bottom:100px;
+    display:flex;
+    height:350px;
+}
+
+.history > div:nth-child(1), .history > div:nth-child(3){
+    background:red;
+    width:200px;
+    height:350px;
+}
+
+.history > div:nth-child(2){
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width:670px;
+}
