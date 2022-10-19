@@ -10,6 +10,17 @@
     height:350px;
 }
 
+.history > div:nth-child(1) > div:nth-child(1){
+    width:4px;
+    height:403px;
+    background:white;
+    transform:rotate(30deg);
+    position:relative;
+    left:100px;
+    top:-27px;
+}
+
+
 .history > div:nth-child(2){
     display:flex;
     flex-direction:column;
