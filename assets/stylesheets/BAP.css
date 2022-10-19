@@ -41,16 +41,18 @@ body{
     position: absolute;
     z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 }
 
 .prochainement h2{
     color: var(--darkblack);
-=======
     flex-direction: row;
     display:none;
->>>>>>> dd5d1c17458f90458dc1cb40928b34700939f617
 }
 
+.prochainement h2{
+    color: var(--darkblack);
+}
 
 
