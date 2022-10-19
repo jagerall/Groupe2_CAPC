@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+:root {
+    --blue-color: #2B40FF;
+    --white-color: #F8F8F8;
+    --grey-color: #5A5A5A;
+    --orange-color: #FF792B;
+    --darkblack-color: #0C0C0C;
+    --midblack-color: #282828;
+    --black-color:#202020;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 51px;
+    letter-spacing: 0.07em;
+    color: var(--blue-color);
+}
+
+
+.alternate_h2 {
+    font-size: 48px;
+    color: var(--white-color);
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--grey-color);
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.105em;
+    color: var(--white-color);
+}
+
+.color-orange {
+    color: var(--orange-color);
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: var(--darkblack-color-color);
+}
+
+h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 200px;
+    font-weight: 600;
+    line-height: 280px;
+    letter-spacing: 0.08em;
+    color: var(--blue-color);
+    margin:0px;
+}
+
+h7 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: var(--midblack-color);
+}
+
+button{
+    border: none;
+    padding: 16px;
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.blueviewmore {
+    background-color: var(--blue-color);
+}
+
+.blackarrow {
+    background-color: var(--darkblack-color);
+}
+
+.bluearrow {
+    background-color: var(--blue-color);
+}
+
+.whiteviewmore {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.newsletter{
+    background-color: var(--black-color);
+    font-weight: 600;
+}
+.blackviewmore{
+    background-color: var(--midblack-color);
+}
