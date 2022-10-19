@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 * {
 	font-size: 14px;
 	font-family: 'Inter', sans-serif;
@@ -14,6 +12,10 @@
 	--blue-color: #2B40FF;
 	--grey-color: #5A5A5A;
 
+}
+
+a {
+	text-decoration:none;
 }
 
 body {
