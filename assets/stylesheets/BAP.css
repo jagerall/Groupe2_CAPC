@@ -1,0 +1,39 @@
+
+body{
+    background: #0C0C0C;
+}
+
+.BLOCBLANC{
+    background: #F8F8F8;
+    position: relative;
+    z-index: 1;
+    height: 111vh;
+}
+
+.imgPorte{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5em;
+    filter: grayscale(100%);
+}
+
+.prochainement{
+    display: flex;
+    max-width: fit-content;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+
+.dates_infos h2{
+color: var(--black-color);
+font-weight: 700;
+font-family: 'Inter', sans-serif;
+text-decoration: none;
+}
+
+
+
+
