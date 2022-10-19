@@ -118,6 +118,11 @@ h7 {
 
 .blackarrow {
     background-color: var(--darkblack-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
 }
 
 .bluearrow {
