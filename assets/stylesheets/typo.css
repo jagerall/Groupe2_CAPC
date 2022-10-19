@@ -62,7 +62,7 @@ h5 {
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0em;
-    color: var(--darkblack-color-color);
+    color: var(--darkblack-color);
 }
 
 h6 {
