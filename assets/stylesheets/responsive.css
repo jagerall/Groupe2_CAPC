@@ -1,56 +1,58 @@
-@media (max-width: 1250px) { 
+@media (max-width: 1250px) {
 
     /* NAVBAR */
 
-    .bloc_texte{
-        left:0;
-        margin-left:auto;
-        margin-right:auto;
+    .bloc_texte {
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* .img1, .img2{
         display:none;
     } */
 
-    .actuality .art1 >img {
-        width:230px;
+    .actuality .art1>img {
+        width: 230px;
     }
 
-    .actuality .art1, .actuality .art2{
-        max-width:600px;
+    .actuality .art1,
+    .actuality .art2 {
+        max-width: 600px;
     }
 
     /* HISTOIRE */
 
-    .stripe{
-        display:none;
+    .stripe {
+        display: none;
     }
 
-    .history{
-        border:solid 4px var(--white-color);
+    .history {
+        border: solid 4px var(--white-color);
     }
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 
     /* NAVBAR */
 
-    .bloc_texte{
-        left:0;
-        margin-left:auto;
-        margin-right:auto;
+    .bloc_texte {
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* .img1, .img2{
         display:none;
     } */
 
-    .actuality .art1 >img {
-        width:230px;
+    .actuality .art1>img {
+        width: 230px;
     }
 
-    .actuality .art1, .actuality .art2{
-        max-width:none;
+    .actuality .art1,
+    .actuality .art2 {
+        max-width: none;
     }
 
 
@@ -58,10 +60,10 @@
 }
 
 
-@media (max-width: 840px) { 
+@media (max-width: 840px) {
     .footer_top ul {
         width: 200px;
-        margin:0px 50px 0px 0;
+        margin: 0px 50px 0px 0;
     }
 
     .footer_bottom {
@@ -69,17 +71,17 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         padding: 40px;
-        width:100%;
+        width: 100%;
     }
 
     .footer_bottom img {
-        margin-left:0;
+        margin-left: 0;
     }
 
-    .newsletter{
-        margin-right:0;
-        margin-bottom:50px;
+    .newsletter {
+        margin-right: 0;
+        margin-bottom: 50px;
     }
 }

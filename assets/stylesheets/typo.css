@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
-:root {
-    --blue-color: #2B40FF;
-    --white-color: #F8F8F8;
-    --grey-color: #5A5A5A;
-    --orange-color: #FF792B;
-    --darkblack-color: #0C0C0C;
-    --midblack-color: #282828;
-    --black-color: #202020;
-}
-
 p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -56,16 +46,17 @@ h4 {
     color: var(--orange-color);
 }
 
-h5{
-font-family: 'Inter', sans-serif;
-font-size: 48px;
-font-weight: 800;
-line-height: 67px;
-letter-spacing: 0.07em;
-text-align: left;
-color: var(--white-color)
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 67px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: var(--white-color)
 }
-.color-black{
+
+.color-black {
     color: var(--midblack-color)
 }
 
@@ -116,7 +107,7 @@ h8 {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    border:none;
+    border: none;
 }
 
 .button:hover {
@@ -141,29 +132,29 @@ h8 {
     text-decoration: none;
     padding: 10px 16px;
     border: none;
-    min-width:48px;
-    width:auto;
-    height:42px;
+    min-width: 48px;
+    width: auto;
+    height: 42px;
 }
 
 .bluearrow {
     background-color: var(--blue-color);
 }
 
-article .buttonarrow::after{
-    content:'->'
+article .buttonarrow::after {
+    content: '->'
 }
 
-article .buttonarrow:hover:after{
-    content:'Voir plus ->'
+article .buttonarrow:hover:after {
+    content: 'Voir plus ->'
 }
 
 .whiteviewmore {
     background-color: var(--white-color);
     color: var(--black-color);
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 .blackviewmore {

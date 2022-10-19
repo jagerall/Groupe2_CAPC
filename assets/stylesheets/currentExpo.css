@@ -35,12 +35,12 @@
     flex-direction: column;
     position: relative;
     width: 50%;
-    min-width:450px;
+    min-width: 450px;
     height: auto;
     background-color: var(--white-color);
     padding: 40px;
-    top:100px;
-    left:40%;
+    top: 100px;
+    left: 40%;
 }
 
 .titre_dates {

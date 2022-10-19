@@ -1,73 +1,69 @@
-
-.actuality{
-    max-width:1210px;
-    width:100%;
-    display:flex;
+.actuality {
+    max-width: 1210px;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-align-items: center;
-flex-direction: column;
-    margin-bottom:100px;
-    margin-left:auto;
-    margin-right:auto;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.actuality > div {
-    display:flex;
+.actuality>div {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.actuality h2{
-    color:var(--white-color);
-    margin-bottom:50px;
+.actuality h2 {
+    color: var(--white-color);
+    margin-bottom: 50px;
 }
 
-.actuality .art1, .actuality .art2 {
+.actuality .art1,
+.actuality .art2 {
     display: flex;
-    width : 100%;
-    margin-bottom:20px;
-    height:316px;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 316px;
 }
 
 .actuality .art2 {
-    max-width:595px;
-    width:100%;
-    height:316px;
+    max-width: 595px;
+    width: 100%;
+    height: 316px;
 }
 
 .information {
     padding: 16px;
 }
 
-.actuality .art1 > div, .actuality .art2 > div{
+.actuality .art1>div,
+.actuality .art2>div {
     min-height: 316px;
-    height:auto;
-    box-sizing:border-box;
-    flex-direction:column;
-    display:flex;
-    background:var(--white-color);
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    background: var(--white-color);
 }
 
-.actuality .information{
-    display:flex;
-    flex-direction:column;
-    height:80%;
+.actuality .information {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
 }
 
-.actuality .art1 > div button, .actuality .art2 > div button {
-    align-self:flex-end;
-    justify-self:flex-end;
-margin-right:20px;
-margin-bottom:20px;}
-
-.actuality p{
-    font-size:14px;
-    overflow:hidden;
+.actuality .art1>div button,
+.actuality .art2>div button {
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-
-/* 
-- il faut bien mettre les blocs de texte avec les images
-- il faut mettre les boutons flèche
-- il faut mettre les polices, couleurs
-*/
+.actuality p {
+    font-size: 14px;
+    overflow: hidden;
+}
