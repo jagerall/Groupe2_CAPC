@@ -1,5 +1,5 @@
 .history{
-    margin-bottom:100px;
+    margin-bottom:150px;
     display:flex;
     min-height:400px;
     width: 80vw;
@@ -26,20 +26,19 @@
     width: 4px;
     background: var(--white-color);
     height: 120%;
-    background: yellow;
     display: block;
     position: absolute;
     transition: transform 0.3s ease-in-out
 }
 
 .history .stripe::before {
-    transform: rotate(10deg);
+    transform: rotate(20deg);
     transform-origin: bottom;
     bottom: 0;
 }
 
 .history .stripe::after {
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
     transform-origin: top;
 }
 
@@ -56,11 +55,11 @@
 }
 
 .history .stripe-right::after {
-    transform: rotate(10deg);
+    transform: rotate(20deg);
 }
 
 .history .stripe-right::before {
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
 }
 
 .history .history-text{
