@@ -31,8 +31,8 @@
 }
 
 .contact input[type=submit] {
-    background-color: #FF792B;
-    color: #F8F8F8;
+    background-color: var(--orange-color);
+    color: var(--white-color);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -50,7 +50,7 @@
 }
 
 .contact h2 {
-    color: #F8F8F8;
+    color: var(--white-color);
     display: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;

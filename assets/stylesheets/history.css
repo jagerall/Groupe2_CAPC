@@ -1,0 +1,29 @@
+.history{
+    margin-bottom:100px;
+    display:flex;
+    height:350px;
+}
+
+.history > div:nth-child(1), .history > div:nth-child(3){
+    background:red;
+    width:200px;
+    height:350px;
+}
+
+.history > div:nth-child(1) > div:nth-child(1){
+    width:4px;
+    height:403px;
+    background:white;
+    transform:rotate(30deg);
+    position:relative;
+    left:100px;
+    top:-27px;
+}
+
+
+.history > div:nth-child(2){
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width:670px;
+}

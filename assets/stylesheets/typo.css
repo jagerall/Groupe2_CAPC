@@ -7,7 +7,16 @@
     --orange-color: #FF792B;
     --darkblack-color: #0C0C0C;
     --midblack-color: #282828;
-    --black-color:#202020;
+    --black-color: #202020;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--darkblack-color);
 }
 
 h2 {
@@ -63,7 +72,7 @@ h6 {
     line-height: 280px;
     letter-spacing: 0.08em;
     color: var(--blue-color);
-    margin:0px;
+    margin: 0px;
 }
 
 h7 {
@@ -75,11 +84,11 @@ h7 {
     color: var(--midblack-color);
 }
 
-.button{
+.button {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
-    background-color: #2B40FF;
+    background-color: var(--blue-color);
     width: fit-content;
     height: fit-content;
     padding-top: 10px;
@@ -92,15 +101,15 @@ h7 {
     box-sizing: border-box;
 }
 
-.button a{
+.button a {
     color: var(--white-color);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
 
-.button:hover{
-    box-shadow: 5px 5px 0px 0px #0C0C0C;
+.button:hover {
+    box-shadow: 5px 5px 0px 0px var(--darkblack-color);
 }
 
 .blueviewmore {
@@ -120,10 +129,11 @@ h7 {
     color: var(--black-color);
 }
 
-.newsletter{
+.newsletter {
     background-color: var(--black-color);
     font-weight: 600;
 }
-.blackviewmore{
+
+.blackviewmore {
     background-color: var(--midblack-color);
 }
