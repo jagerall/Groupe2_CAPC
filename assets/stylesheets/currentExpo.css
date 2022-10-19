@@ -33,7 +33,7 @@
     width: 760px;   
     min-height:430px;
     height:50%;
-    background-color: #F8F8F8;
+    background-color: var(--white-color);
     padding-top: 30px;
     padding-left: 70px;
     padding-right: 30px;

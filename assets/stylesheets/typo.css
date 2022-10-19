@@ -79,7 +79,7 @@ h7 {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
-    background-color: #2B40FF;
+    background-color: var(--blue-color);
     width: fit-content;
     height: fit-content;
     padding-top: 10px;
@@ -100,7 +100,7 @@ h7 {
 }
 
 .button:hover{
-    box-shadow: 5px 5px 0px 0px #0C0C0C;
+    box-shadow: 5px 5px 0px 0px var(--darkblack-color);
 }
 
 .blueviewmore {
