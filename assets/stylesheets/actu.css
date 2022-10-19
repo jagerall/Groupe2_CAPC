@@ -1,63 +1,69 @@
 
 .actuality{
-    width:100vw;
+    max-width:1210px;
+    width:100%;
     display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+align-items: center;
+flex-direction: column;
     margin-bottom:100px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-.article-full-width {
+.actuality > div {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.actuality h2{
+    color:var(--white-color);
+    margin-bottom:50px;
+}
+
+.actuality .art1, .actuality .art2 {
     display: flex;
-    min-width: 1144px;
-    width : 80%;
-}
-
-.article-half-width {
-    width: 30%;
-    min-width: 562px;
-    display: flex;
-}
-
-
-.information {
-    background-color: beige;
-    flex: 1;
-    padding: 16px;
-}
-
-.article-full-width .content
-{
+    width : 100%;
+    margin-bottom:20px;
     height:316px;
 }
 
-.content{
-    height: 340px;
+.actuality .art2 {
+    max-width:595px;
+    width:100%;
+    height:316px;
+}
+
+.information {
+    padding: 16px;
+}
+
+.actuality .art1 > div, .actuality .art2 > div{
+    min-height: 316px;
+    height:auto;
     box-sizing:border-box;
-    background-color: green;
+    flex-direction:column;
+    display:flex;
+    background:var(--white-color);
+}
+
+.actuality .information{
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    height:80%;
 }
 
-.content button{
-    justify-self: flex-end;
+.actuality .art1 > div button, .actuality .art2 > div button {
     align-self:flex-end;
-}
+    justify-self:flex-end;
+margin-right:20px;
+margin-bottom:20px;}
 
-
-p{
+.actuality p{
     font-size:14px;
+    overflow:hidden;
 }
-
-.actuality_div{
-    display:flex;
-    justify-content: center;
-}
-
-
-
-
 
 
 /* 

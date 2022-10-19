@@ -97,7 +97,7 @@ h8 {
     color: var(--midblack-color);
 }
 
-.button {
+.currentExpo .button {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
@@ -112,13 +112,11 @@ h8 {
     justify-items: center;
     align-content: center;
     box-sizing: border-box;
-}
-
-.button a {
     color: var(--white-color);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
+    border:none;
 }
 
 .button:hover {
@@ -129,34 +127,37 @@ h8 {
     background-color: var(--blue-color);
 }
 
-.blackarrow {
+.buttonarrow {
     background-color: var(--darkblack-color);
     color: var(--white-color);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     padding: 10px 16px;
-    border: none
+    border: none;
+    min-width:48px;
+    width:auto;
+    height:42px;
 }
 
 .bluearrow {
     background-color: var(--blue-color);
-    color: var(--white-color);
-    font-weight: 700;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    padding: 10px 16px;
-    border:none
+}
+
+article .buttonarrow::after{
+    content:'->'
+}
+
+article .buttonarrow:hover:after{
+    content:'Voir plus ->'
 }
 
 .whiteviewmore {
     background-color: var(--white-color);
     color: var(--black-color);
-}
-
-.newsletter {
-    background-color: var(--black-color);
-    font-weight: 600;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
 }
 
 .blackviewmore {

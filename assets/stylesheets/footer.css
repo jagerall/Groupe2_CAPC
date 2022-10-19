@@ -1,48 +1,91 @@
-.footer_top{
-    padding:40px;
+footer {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom:30px;
+    border-top: solid 1px var(--white-color);
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    background:var(--darkblack-color);
+}
 
+footer::before {
+    content: '';
+    width: 1px;
+    height: 107%;
+    background: var(--white-color);
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+}
+
+footer::after {
+    content: '';
+    width: 1px;
+    height: 107%;
+    background: var(--white-color);
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+.footer_top {
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0em;
-    color: #f8f8f8;
-
+    color: var(--white-color);
+    width:100%;
 
 }
 
-.footer_bottom{
-    display:flex;
+.footer_top ul {
+    width: 250px;
+    margin:50px 50px 50px 0;
+}
+
+.footer_bottom {
+    display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
-    padding:40px;
-
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 40px;
+    width:100%;
 }
 
-.footer_bottom_copyright{
+.footer_bottom img {
+    width: 200px;
+    margin-left: 70px;
+}
+
+.footer_bottom_copyright p {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0em;
-    color: #f8f8f8;
+    color: var(--white-color);
 }
 
-
-
-.newsletter{
+.newsletter {
     display: flex;
-    justify-content: flex-end;
-    border:none;
-    padding:16px;
-    color:var(--white-color);
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 16px;
+    color: var(--white-color);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
-    cursor:pointer;
+    cursor: pointer;
     background-color: var(--black-color);
     font-weight: 600;
-
+    height: 42px;
+    margin-right:60px;
 }
