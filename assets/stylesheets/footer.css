@@ -22,15 +22,17 @@
 
 }
 
-.footer_bottom_copyright{
+.footer_bottom_copyright {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0em;
-    color: #f8f8f8;
-}
-
+    /* mettre le texte 2022 tous droits réservés à la bonne typo
+    et en blanc car on ne le voit pas */
+    background-color: blue;
+    color:#f8f8f8;
+} 
 
 
 .newsletter{
