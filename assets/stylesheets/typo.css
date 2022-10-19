@@ -75,14 +75,34 @@ h7 {
     color: var(--midblack-color);
 }
 
-button{
-    border: none;
-    padding: 16px;
+.button{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: #2B40FF;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.1s;
+    justify-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.button a{
     color: var(--white-color);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
-    cursor: pointer;
+    text-decoration: none;
 }
+
+.button:hover{
+    box-shadow: 5px 5px 0px 0px #0C0C0C;
+}
+
 .blueviewmore {
     background-color: var(--blue-color);
 }
