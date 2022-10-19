@@ -28,10 +28,18 @@ body{
 }
 
 .dates_infos h2{
-color: var(--black-color);
-font-weight: 700;
-font-family: 'Inter', sans-serif;
-text-decoration: none;
+    color: var(--darkblack);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.BAP{
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
 }
 
 
