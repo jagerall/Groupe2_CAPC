@@ -19,6 +19,7 @@
 .actuality h2 {
     color: var(--white-color);
     margin-bottom: 50px;
+    align-self:flex-start;
 }
 
 .actuality .art1,
