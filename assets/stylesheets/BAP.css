@@ -3,6 +3,7 @@
     position: relative;
     z-index: 1;
     height:125vh;
+    overflow:hidden;
 }
 
 .bap_title{
@@ -36,7 +37,7 @@
     margin-right: 7em;
     filter: grayscale(100%);
     top: -570px;
-    left:70%;
+    left:68%;
     transform: rotate(7deg);
     transform-origin: bottom right;
     transition: 0.3s ease-in-out;
