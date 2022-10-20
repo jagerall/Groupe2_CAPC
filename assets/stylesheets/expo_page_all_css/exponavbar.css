@@ -1,3 +1,62 @@
-.logocapcnavbar{
+.buttonrectangleblue {
+        background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 40px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    width: 25%;
+    min-width: 300px;
+    transition: 0.2s;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.services {
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services button:nth-child(2),
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 40px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    width: 25%;
+    min-width: 300px;
+    transition: 0.2s;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.services button:nth-child(2)::after,{
+    content: '';
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+.services button:nth-child(2)::after {
+    background: var(--blue-color);
 
 }
+.services button:nth-child(2) {
+    background-color: var(--blue-color);
+}
+
+
