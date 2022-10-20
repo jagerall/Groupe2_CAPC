@@ -20,11 +20,12 @@ a {
 
 body {
 	background: linear-gradient(180deg, #0C0C0C 18.75%, #202020 59.38%, #0C0C0C 100%);
+	width:100%:
 }
 
 .navbar {
 	height: 80px;
-	width: 100vw;
+	width: 100%;
 	background: rgba(12, 12, 12, 0.9);
 	backdrop-filter: blur(150px);
 	display: flex;
@@ -136,7 +137,7 @@ body {
 
 header {
 	height: 80vh;
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
