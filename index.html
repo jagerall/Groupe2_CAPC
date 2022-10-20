@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./assets/stylesheets/BAP.css">
     <link rel="stylesheet" href="assets/stylesheets/zoneContact.css">
     <link rel="stylesheet" href="./assets/stylesheets/footer.css">
+    <link rel="stylesheet" href="./assets/stylesheets/responsive.css">
 </head>
 
 <body>
@@ -67,7 +68,7 @@
             </ul>
             <div class="navbar_rightNav">
                 <button class="navbar_search-button">
-
+                    <img src="assets/SVG/logosearch.svg" alt="bouton rechercher">
                 </button>
                 <input type="text" name="search" id="search" placeholder="Rechercher" class="navbar_search-input" />
             </div>
@@ -86,18 +87,17 @@
 
     <section>
         <div class="currentExpo">
-            <div>
-                <figure><img src="./assets/img/anka.jpg" alt="Anka" class="img1"><a href="anka.jpg"></a></figure>
-
-
-                <figure><img src="./assets/img/tableauxAnka.jpg" alt="tableauxAnka" class="img2"><a
-                        href="tableauxAnka.jpg"></a></figure>
+            <div class="img-block">
+                <figure>
+                    <img src="./assets/img/anka.jpg" alt="Anka" class="img1">
+                    <img src="./assets/img/tableauxAnka.jpg" alt="tableauxAnka" class="img2">
+                </figure>
             </div>
 
             <div class="bloc_texte">
                 <div class="titre_dates">
                     <h2>EXPOSITION DU MOMENT<br>ANKA AU CAS PAR CAS</h2>
-                    <h3>23.06.2022 → 31.12.2022</h3>
+                    <time>23.06.2022 → 31.12.2022</time>
                 </div>
 
                 <div class="paragraphe">
@@ -109,9 +109,9 @@
                         qui l’anime.</p>
                 </div>
 
-                <div class="button">
-                    <a href="#">Voir plus →</a>
-                </div>
+                <button class="button" href="#">
+                    Voir plus →
+                </button>
 
             </div>
         </div>
@@ -145,91 +145,74 @@
     <!--ACTUALITÉS-->
 
     <section>
-        <h5>ACTUALITÉS</h5>
+        <div class="actuality">
+            <h2>ACTUALITÉS</h2>
+            <div>
+                <article class="art1">
+                    <img src="./assets/img/top_picture.png" alt="illustration article top">
+                    <div>
+                        <div class="information">
+                            <date>30.09.2022 -> 30.10.2022</date>
+                            <h6>le capc recrute</h6>
+                            <p>Le Capc Musée d'art contemporain de Bordeaux recherche un·e stagiaire pour son service du
+                                développement des publics et de la communication / centre communication.</p>
 
-    <div class="actuality">
-
-        <article class="article-full-width">
-            <div class="picture">
-                <img src="./assets/img/top_picture.png" alt="illustration article top">
-
-            </div>
-
-                <div class="content">
-
-                    <div class="information">
-                    <date>30.09.2022 -> 30.10.2022</date>
-                    <p>le capc recrute</p>
-                    <p>Le Capc Musée d'art contemporain de Bordeaux recherche un·e stagiaire pour son service du développement des publics et de la communication / centre communication.</p>
-                    </div>
-                
-                    <button>-></button>
-
-                </div>
-        
-        </article>
-
-
-
-            <div class="actuality_div">
-
-                <div class="actuality_div_1">
-
-                    <article class="article-half-width">
-                        <div class="picture">
-                            <img src="./assets/img/left_picture.png"alt="illustration article left">
                         </div>
-    
-                    <div class="content">
-    
-                            <div class="information">
-                            <date>19.11.2022 - 12h30 / 18h</date>
-                            <p>l’atelier des communs</p>
-                            <p>Le Capc fêtera ses 50 ans en 2023. À quoi pourrait-il ressembler alors dans 50 ans ? En quoi le Capc constitue-t-il un bien commun et un lieu dans lequel se crée du commun ? Tout le monde est invité à devenir acteur et actrice de ces questionnements et transformations en prenant part à L’Atelier des communs.</p>
-                            </div>
-    
-                            <button>-></button>
-    
-                            </div>
-    
-                    </article>
-
-                </div>
-
-
-
-                <div class="actuality_div_2">
-
-                    <article class="article-half-width">
-                    <div class="picture">
-                    <img src="./assets/img/right_picture.png" alt="illustration article right">
+                        <button class="buttonarrow" href="#">
+                        </button>
                     </div>
-
-                <div class="content">
-
-                    <div class="information">
-                    <date>16.10.2022</date>
-                    <p>visite babel, le tour du jour en quatre-ving monde</p>
-                    <p>Artiste et écrivaine d’origine libanaise, Nina Esber utilise son corps comme matériau dans une pratique tournée vers la performance, la vidéo, la photographie et le dessin jouant des notions de répétitions, de simultanéité, parfois d’immobilité et de résistance.</p>
-                    </div>
-
-                    <button>-></button>
-
-                    </div>
-
                 </article>
-                    
-                </div>
 
+                <article class="art2">
+                    <img src="./assets/img/left_picture.png" alt="illustration article top">
+                    <div>
+                        <div class="information">
+                            <date>19.11.2022 - 12h30 / 18h</date>
+                            <h6>l’atelier des communs</h6>
+                            <p>Le Capc fêtera ses 50 ans en 2023. À quoi pourrait-il ressembler alors dans 50 ans ? En
+                                quoi
+                                le Capc constitue-t-il un bien commun et un lieu dans lequel se crée du commun ? Tout le
+                                monde est invité à devenir acteur et actrice de ces questionnements et transformations
+                                en
+                                prenant part à L’Atelier des communs.</p>
+                        </div>
 
+                        <button class="buttonarrow" href="#">
+                        </button>
+
+                    </div>
+                </article>
+
+                <article class="art2">
+                    <img src="./assets/img/test.png" alt="illustration article top">
+                    <div>
+                        <div class="information">
+                            <date>16.10.2022</date>
+                            <h6>visite babel, le tour du jour en quatre-ving monde</h6>
+                            <p>Artiste et écrivaine d’origine libanaise, Nina Esber utilise son corps comme matériau
+                                dans
+                                une pratique tournée vers la performance, la vidéo, la photographie et le dessin jouant
+                                des
+                                notions de répétitions, de simultanéité, parfois d’immobilité et de résistance.</p>
+                        </div>
+
+                        <button class="buttonarrow bluearrow" href="#">
+                        </button>
+
+                    </div>
+                </article>
             </div>
-    
+
+            <button class="buttonarrow whiteviewmore" href="#">
+                Voir plus ->
+            </button>
 
 
-    </div>
+
+        </div>
 
 
-</section>
+    </section>
 
     <!-- BARBE A PAPA -->
 
@@ -240,8 +223,9 @@
                 <h2>PROCHAINEMENT</h2>
             </div>
 
-            <figure class="imgPorte"><a href="./assets/img/bap_porte.jpg"><img src="./assets/img/bap_porte.jpg" alt="porte" style="max-width: 22vw"></a></figure>
-    
+            <figure class="imgPorte"><a href="./assets/img/bap_porte.jpg"><img src="./assets/img/bap_porte.jpg"
+                        alt="porte" style="max-width: 22vw"></a></figure>
+
             <figure class="imgPorte"><a href="./assets/img/bap_porte.jpg"><img src="./assets/img/bap_porte.jpg"
                         alt="porte" style="max-width: 25vw"></a></figure>
 
@@ -279,9 +263,19 @@
 
     <section>
         <div class="contact">
-            <h2>CONTACT</h2>
+            <div class="contact_img">
+                <img src="./assets/img/logoCAPCcontact.png" alt="logocapc">
+                <div>
+                    <a href="#"><img src="./assets/SVG/insta.svg" alt="compte instagram"></a>
+                    <a href="#"><img src="./assets/SVG/twitter.svg" alt="compte twitter"></a>
+                    <a href="#"><img src="./assets/SVG/facebook.svg" alt="compte facebook"></a>
+                    <a href="#"><img src="./assets/SVG/youtube.svg" alt="compte youtube"></a>
+                </div>
+            </div>
 
-            <div class="container">
+            <div class="contact-form">
+                <h2>CONTACT</h2>
+
                 <form action="/action_page.php">
 
                     <label for="fname"></label>
@@ -300,29 +294,17 @@
                 </form>
             </div>
         </div>
-        <img src="./assets/SVG/logobasdepage.svg"
-        alt="logocapc">   
-        </di>
-        <div class="socialnetworks">
-            <img src="./assets/SVG/insta.svg" alt="instagram">
-            <img src="./assets/SVG/twitter.svg"
-            alt="twitter">
-            <img src="./assets/SVG/facebook.svg"
-            alt="facebook">
-            <img src="./assets/SVG/youtube.svg"
-            alt="youtube">
-        </div>
     </section>
 
     <!--FOOTER-->
 
     <section>
 
-        <div class="footer_div">
+        <footer>
 
             <div class="footer_top">
 
-                <ul class="list_1">
+                <ul>
                     <li>Accueil</li>
                     <li>Musée</li>
                     <li>Expositions</li>
@@ -330,7 +312,7 @@
                     <li>Événements</li>
                 </ul>
 
-                <ul class="list_2">
+                <ul>
                     <li>L'histoire du CAPC</li>
                     <li>Nos collections</li>
                     <li>Tarifs</li>
@@ -340,7 +322,7 @@
                     <li>Privatisation</li>
                 </ul>
 
-                <ul class="list_3">
+                <ul>
                     <li>Amis du CAPC</li>
                     <li>Mécénats et partenaires</li>
                     <li>Équipe</li>
@@ -348,7 +330,7 @@
                 </ul>
 
 
-                <ul class="list_4">
+                <ul>
                     <li>Mentions légales</li>
                     <li>Données personnelles et cookies</li>
                     <li>Plan du site</li>
@@ -356,28 +338,24 @@
 
             </div>
 
-
-
-
             <div class="footer_bottom">
 
-                <div class="footer_logo">
-                    <img>
-                </div>
+                <img src="assets/img/logoCAPC_footer.png" alt="Logo du CAPC">
 
-                <div class="footer_bottom_copyright">
-                    <p>© 2022 - Tous droits réservés</p>
-                </div>
+
 
                 <button class="newsletter">Recevoir la newsletter</button>
 
+            </div>
 
+            <div class="footer_bottom_copyright">
+                <p>© 2022 - Tous droits réservés</p>
             </div>
 
 
 
 
-        </div>
+        </footer>
 
 
     </section>
@@ -390,7 +368,5 @@
         crossorigin="anonymous"></script>
 
 </body>
-
-<!-- Coucou c'est pas alex et c'est cool -->
 
 </html>

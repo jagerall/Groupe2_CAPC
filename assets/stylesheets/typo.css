@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
-:root {
-    --blue-color: #2B40FF;
-    --white-color: #F8F8F8;
-    --grey-color: #5A5A5A;
-    --orange-color: #FF792B;
-    --darkblack-color: #0C0C0C;
-    --midblack-color: #282828;
-    --black-color: #202020;
-}
-
 p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -34,7 +24,7 @@ h2 {
     color: var(--white-color);
 }
 
-h3 {
+time {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -58,6 +48,20 @@ h4 {
 
 h5 {
     font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 67px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: var(--white-color)
+}
+
+.color-black {
+    color: var(--midblack-color)
+}
+
+h6 {
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -65,7 +69,7 @@ h5 {
     color: var(--darkblack-color);
 }
 
-h6 {
+h7 {
     font-family: 'Inter', sans-serif;
     font-size: 200px;
     font-weight: 600;
@@ -75,7 +79,7 @@ h6 {
     margin: 0px;
 }
 
-h7 {
+h8 {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -84,7 +88,7 @@ h7 {
     color: var(--midblack-color);
 }
 
-.button {
+.currentExpo .button {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
@@ -99,13 +103,11 @@ h7 {
     justify-items: center;
     align-content: center;
     box-sizing: border-box;
-}
-
-.button a {
     color: var(--white-color);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
+    border: none;
 }
 
 .button:hover {
@@ -114,29 +116,45 @@ h7 {
 
 .blueviewmore {
     background-color: var(--blue-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none
 }
 
-.blackarrow {
+.buttonarrow {
     background-color: var(--darkblack-color);
     color: var(--white-color);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     padding: 10px 16px;
+    border: none;
+    min-width: 48px;
+    width: auto;
+    height: 42px;
 }
 
 .bluearrow {
     background-color: var(--blue-color);
 }
 
+article .buttonarrow::after {
+    content: '->'
+}
+
+article .buttonarrow:hover:after {
+    content: 'Voir plus ->'
+}
+
 .whiteviewmore {
     background-color: var(--white-color);
     color: var(--black-color);
-}
-
-.newsletter {
-    background-color: var(--black-color);
-    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 .blackviewmore {

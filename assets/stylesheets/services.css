@@ -1,4 +1,4 @@
-.participate{
+.participate {
     background-color: var(--white-color);
     color: var(--black-color);
     border: none;
@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.seexhibitions{
+.seexhibitions {
     background-color: var(--blue-color);
     color: var(--white-color);
     border: none;
@@ -18,12 +18,12 @@
     cursor: pointer;
 }
 
-.privatize{
+.privatize {
     background-color: var(--orange-color);
     color: var(--midblack-color);
     border: none;
     padding: 38px 66.86px 38px 66.86px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
-    cursor: pointer; 
-} 
+    cursor: pointer;
+}

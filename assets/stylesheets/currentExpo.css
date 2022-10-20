@@ -1,46 +1,49 @@
-.currentExpo{
-    display:flex;
-    width:100vw;
-    justify-content:center;
-    box-sizing:border-box;
+.currentExpo {
+    width: 100vw;
+    box-sizing: border-box;
+    height: 900px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.img1{
+.currentExpo .img-block {
     position: relative;
-    display: flex;
-    z-index:1;
+    width: 100vw;
+}
+
+.img1 {
+    position: absolute;
+    z-index: 1;
     width: 530px;
-    left:15%;
+    top: 0;
+    left: 10%;
 }
 
-.img2{
-    position: relative;
-    display: flex;
+.img2 {
+    position: absolute;
     justify-content: space-around;
     z-index: 2;
-    left: 80%;
-    top:-350px;
-    max-width:600px;
+    top: 200px;
+    left: 45%;
+    max-width: 600px;
 }
 
-.bloc_texte{
+.bloc_texte {
     z-index: 3;
     display: flex;
     flex-direction: column;
     position: relative;
-    left:-100px;
-    top:50px;
-    width: 760px;   
-    min-height:430px;
-    height:50%;
+    width: 50%;
+    min-width: 450px;
+    height: auto;
     background-color: var(--white-color);
-    padding-top: 40px;
-    padding-left: 70px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding: 40px;
+    top: 100px;
+    left: 40%;
 }
 
-.titre_dates{
+.titre_dates {
     display: flex;
     max-width: 90%;
     justify-content: center;
@@ -49,16 +52,16 @@
     flex-wrap: wrap;
 }
 
-.titre_dates h2{
+.titre_dates h2 {
     margin-bottom: 0;
 }
 
-.titre_dates h3{
+.titre_dates time {
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.paragraphe{
+.paragraphe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,11 +71,6 @@
     margin-bottom: 0.5em;
 }
 
-.paragraphe p{
+.paragraphe p {
     margin-top: 0;
 }
-
-
-
-
-

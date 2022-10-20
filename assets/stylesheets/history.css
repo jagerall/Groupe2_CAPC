@@ -1,13 +1,13 @@
-.history{
-    margin-bottom:100px;
-    display:flex;
-    min-height:400px;
+.history {
+    margin-bottom: 200px;
+    display: flex;
+    min-height: 400px;
     width: 80vw;
-    margin-top:100px;
+    margin-top: 100px;
     border-top: solid 4px var(--white-color);
     border-bottom: solid 4px var(--white-color);
-    justify-content:center;
-    padding:40px;
+    justify-content: center;
+    padding: 40px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -21,29 +21,30 @@
     width: 4px;
 }
 
-.history .stripe::before, .history .stripe::after {
+.history .stripe::before,
+.history .stripe::after {
     content: '';
     width: 4px;
     background: var(--white-color);
     height: 120%;
-    background: yellow;
     display: block;
     position: absolute;
     transition: transform 0.3s ease-in-out
 }
 
 .history .stripe::before {
-    transform: rotate(10deg);
+    transform: rotate(20deg);
     transform-origin: bottom;
     bottom: 0;
 }
 
 .history .stripe::after {
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
     transform-origin: top;
 }
 
-.history:hover .stripe::after, .history:hover .stripe::before {
+.history:hover .stripe::after,
+.history:hover .stripe::before {
     transform: rotate(0deg);
 }
 
@@ -56,15 +57,15 @@
 }
 
 .history .stripe-right::after {
-    transform: rotate(10deg);
+    transform: rotate(20deg);
 }
 
 .history .stripe-right::before {
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
 }
 
-.history .history-text{
-    width:670px;
+.history .history-text {
+    width: 670px;
 }
 
 .history h4:first-child {

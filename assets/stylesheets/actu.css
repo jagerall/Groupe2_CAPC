@@ -1,68 +1,70 @@
+.actuality {
+    max-width: 1210px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.actuality{
-    width:100vw;
-    display:flex;
-    justify-content: center;
+.actuality>div {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom:100px;
 }
 
-.article-full-width {
+.actuality h2 {
+    color: var(--white-color);
+    margin-bottom: 50px;
+    align-self:flex-start;
+}
+
+.actuality .art1,
+.actuality .art2 {
     display: flex;
-    min-width: 1144px;
-    width : 80%;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 316px;
 }
 
-.article-half-width {
-    width: 30%;
-    min-width: 562px;
-    display: flex;
+.actuality .art2 {
+    max-width: 595px;
+    width: 100%;
+    height: 316px;
 }
-
 
 .information {
-    background-color: beige;
-    flex: 1;
     padding: 16px;
 }
 
-.article-full-width .content
-{
-    height:316px;
+.actuality .art1>div,
+.actuality .art2>div {
+    min-height: 316px;
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    background: var(--white-color);
 }
 
-.content{
-    height: 340px;
-    box-sizing:border-box;
-    background-color: green;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
+.actuality .information {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
 }
 
-.content button{
+.actuality .art1>div button,
+.actuality .art2>div button {
+    align-self: flex-end;
     justify-self: flex-end;
-    align-self:flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-
-
-p{
-    font-size:14px;
+.actuality p {
+    font-size: 14px;
+    overflow: hidden;
 }
-
-.actuality_div{
-    display:flex;
-    justify-content: center;
-}
-
-
-
-
-
-
-/* 
-- il faut bien mettre les blocs de texte avec les images
-- il faut mettre les boutons flèche
-- il faut mettre les polices, couleurs
-*/
