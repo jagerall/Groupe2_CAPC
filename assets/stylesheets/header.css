@@ -20,7 +20,7 @@ a {
 
 body {
 	background: linear-gradient(180deg, #0C0C0C 18.75%, #202020 59.38%, #0C0C0C 100%);
-	width:100%:
+	width:100%;
 }
 
 .navbar {
@@ -36,6 +36,7 @@ body {
 	padding: 0 60px 0 60px;
 	position: fixed;
 	z-index: 999;
+	top:0;
 }
 
 .navbar a {
@@ -209,4 +210,8 @@ h1 {
 	transform: rotate(-12.43deg);
 	position: relative;
 	top: 100px;
+}
+
+.navbar_mobile{
+	display:none;
 }

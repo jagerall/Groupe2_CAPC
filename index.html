@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/stylesheets/zoneContact.css">
     <link rel="stylesheet" href="./assets/stylesheets/footer.css">
     <link rel="stylesheet" href="./assets/stylesheets/responsive.css">
+    <link rel="stylesheet" href="assets/stylesheets/navbar_mobile.css">
 </head>
 
 <body>
@@ -74,6 +75,41 @@
             </div>
         </nav>
 
+        <nav class="navbar_mobile closedmenu">
+            <div class="navbar_mobile_grp">
+                <img src="./assets/SVG/menu.svg" class="navbar_mobile_button">
+                <div class="navbar_rightNav">
+                    <button class="navbar_search-button">
+                        <img src="assets/SVG/logosearch.svg" alt="bouton rechercher">
+                    </button>
+                    <input type="text" name="search" id="search" placeholder="Rechercher" class="navbar_search-input" />
+                </div>
+            </div>
+            <ul class="lienshide">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Musée</a>
+                <ul><li><a href="#">L'histoire du CAPC</a></li>
+                    <li><a href="#">Nos collections</a></li>
+                </ul>
+            </li>
+                <li><a href="#">Expositions</a></li>
+                <li><a href="#">Informations</a>
+                    <ul><li><a href="#">Tarifs</a></li>
+                        <li><a href="#">Horaires</a></li>
+                        <li><a href="#">Accès</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Événements</a>
+                    <ul><li><a href="#">Ateliers</a></li>
+                        <li><a href="#">Privatisation</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
+
+
+
         <header>
             <h1 class="logo">
                 <span data-letter="C">C</span><span data-letter="A">A</span><span data-letter="P">P</span><span
@@ -102,13 +138,17 @@
                         qui l’anime.</p>
                 </div>
 
+                <figure>
+                    <img src="./assets/img/anka.jpg" alt="Anka">
+                </figure>
+
                 <button href="#">
                     Voir plus →
                 </button>
 
             </div>
 
-                        <div class="img-block">
+            <div class="img-block">
                 <figure>
                     <img src="./assets/img/anka.jpg" alt="Anka" class="img1">
                     <img src="./assets/img/tableauxAnka.jpg" alt="tableauxAnka" class="img2">
@@ -131,11 +171,13 @@
                     générations futures de l'important <span>patrimoine</span> dont il est le garant.
                 </h4>
                 <h4>
-                    Il partage une certaine vision de <span>l'art contemporain</span> et de son histoire, offrant à ses visiteurs
+                    Il partage une certaine vision de <span>l'art contemporain</span> et de son histoire, offrant à ses
+                    visiteurs
                     une
-                    passerelle entre les <span>expériences esthétiques</span> de la fin du siècle dernier et les <span>questionnements
-                    des
-                    artistes</span> d'aujourd'hui.
+                    passerelle entre les <span>expériences esthétiques</span> de la fin du siècle dernier et les
+                    <span>questionnements
+                        des
+                        artistes</span> d'aujourd'hui.
                 </h4>
             </div>
             <div class="stripe stripe-right"></div>
@@ -248,7 +290,7 @@
     <section>
 
         <div class="services">
-            <button href="#" class="toto">
+            <button href="#">
                 Participer à un atelier
                 </a>
             </button>
@@ -373,6 +415,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 
+        <script src="./assets/javascript/JS1.js"></script>
 </body>
 
 </html>

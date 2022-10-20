@@ -8,10 +8,6 @@
         margin-right: auto;
     }
 
-    /* .img1, .img2{
-        display:none;
-    } */
-
     .actuality .art1>img {
         width: 230px;
     }
@@ -30,21 +26,18 @@
     .history {
         border: solid 4px var(--white-color);
     }
+
+    /* ACTU */
+
+    .actuality h2 {
+        display:none;
+    }
+    
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
-    /* NAVBAR */
-
-    .bloc_texte {
-        left: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* .img1, .img2{
-        display:none;
-    } */
+    /* ACTU */
 
     .actuality .art1>img {
         width: 230px;
@@ -55,34 +48,76 @@
         max-width: none;
     }
 
-}
+    /* LOGO HEADER */
 
-@media (max-width: 1000px) {
-
-    /* EXPO DU MOMENT  */
-
-    .currentExpo {
-        margin-bottom: 0;
+    header {
+        margin-top: 200px;
     }
 
-    .currentExpo h2 {
-        font-size: 22px;
-        line-height: 140%;
+    .logo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom:-100px;
     }
 
-
-    .bloc_texte {
-        min-width: 350px;
+    .logo span {
+        text-shadow:
+            -2px -2px 0 var(--white-color),
+            2px -2px 0 var(--white-color),
+            -2px 2px 0 var(--white-color),
+            2px 2px 0 var(--white-color);
+        font-size: 150px;
     }
 
-    .img1{
-        z-index:20;
-        top:0;
-        left:0;
+    .logo span::after {
+        content: attr(data-letter);
+        position: absolute;
+        left: 5px;
+        z-index: -1;
+        font-size: 150px;
     }
 
-    .img2{
-        display:none;
+    .logo span:nth-child(1) {
+        transform: rotate(2.63deg);
+        position: relative;
+        left: -100px;
+    }
+
+    .logo span:nth-child(2) {
+        text-shadow:
+            -2px -2px 0 var(--orange-color),
+            2px -2px 0 var(--orange-color),
+            -2px 2px 0 var(--orange-color),
+            2px 2px 0 var(--orange-color);
+        transform: rotate(-9.09deg);
+        position: relative;
+        top: -100px;
+    }
+
+    .logo span:nth-child(2)::after {
+        text-shadow:
+            -2px -2px 0 var(--orange-color),
+            2px -2px 0 var(--orange-color),
+            -2px 2px 0 var(--orange-color),
+            2px 2px 0 var(--orange-color);
+    }
+
+    .logo span:nth-child(3) {
+        transform: rotate(19.6deg);
+        position: relative;
+        top: -150px;
+        left: 100px;
+    }
+
+    .logo span:nth-child(4) {
+        transform: rotate(-12.43deg);
+        position: relative;
+        top: -240px;
+        left: 100px;
+    }
+
+    .navbar {
+        display: none;
     }
 
 
@@ -97,7 +132,7 @@
 
     .history {
         padding: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 20%;
         margin-top: 0;
     }
 
@@ -116,6 +151,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items:center;
+        flex-direction:column;
     }
 
     .bap_zone img {
@@ -182,7 +219,14 @@
         transform: rotate(0deg)
     }
 
-    .contact {
+   
+}
+
+@media (max-width:840px) {
+
+     /* CONTACT  */
+    
+     .contact {
         border-top: none;
         margin-top: 0;
     }
@@ -207,6 +251,7 @@
         margin-bottom: 100px;
     }
 
+
     /* FOOTER */
 
     footer {
@@ -223,10 +268,6 @@
         display: none;
     }
 
-}
-
-
-@media (max-width: 840px) {
     .footer_top ul {
         margin: 0 50px 0px 10px;
     }
@@ -248,5 +289,57 @@
     .newsletter {
         margin-right: 0;
         margin-bottom: 50px;
+    }
+}
+
+@media (max-width:630px) {
+       /* EXPO DU MOMENT  */
+
+       .currentExpo {
+        margin-bottom: 0;
+    }
+
+    .currentExpo h2 {
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+
+    .bloc_texte {
+        width: 100%;
+        min-width: 0;
+        margin-bottom: 60%;
+        top: -100px;
+    }
+
+    .bloc_texte img {
+        display: block;
+        top: 0;
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        left: auto;
+        position: absolute;
+        padding: 40px;
+        left: 0;
+        top: 75%;
+    }
+
+    .currentExpo button {
+        position: relative;
+        top: 15%;
+        right: 20px;
+        background: var(--white-color);
+        color: var(--black-color);
+    }
+
+    .img1 {
+        z-index: 20;
+
+        display: none;
+    }
+
+    .img2 {
+        display: none;
     }
 }

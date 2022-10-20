@@ -47,7 +47,7 @@
 
 .bap_zone_right{
     width:30%;
-    min-width:400px;
+    min-width:340px;
     height:auto;
     position:relative;
     display:flex;
@@ -110,7 +110,7 @@
     transform-origin: bottom right;
     transition: 0.3s ease-in-out;
     filter: grayscale(1);
-    width:80%;
+    width:70%;
 }
 
 .bap_zone img:hover{
