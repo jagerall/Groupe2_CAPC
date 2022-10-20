@@ -8,7 +8,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: var(--darkblack-color);
+    background: var(--black-color);
 }
 
 footer::before {
@@ -42,8 +42,6 @@ footer::after {
     line-height: 22px;
     letter-spacing: 0em;
     color: var(--white-color);
-    width: 100%;
-
 }
 
 .footer_top ul {
@@ -83,7 +81,7 @@ footer::after {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    background-color: var(--black-color);
+    background-color: var(--darkblack-color);
     font-weight: 600;
     height: 42px;
     margin-right: 60px;

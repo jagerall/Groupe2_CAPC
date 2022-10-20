@@ -14,6 +14,10 @@
     overflow: hidden;
 }
 
+.history span {
+    color:var(--orange-color);
+}
+
 .history .stripe {
     position: absolute;
     top: 0;

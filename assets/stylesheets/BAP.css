@@ -1,51 +1,59 @@
 .bap_zone{
-    background: #F8F8F8;
+    background: var(--white-color);
     position: relative;
     z-index: 1;
-    height:125vh;
+    height:auto;
+    min-height:120vh;
     overflow:hidden;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
 }
 
 .bap_title{
     display:flex;
     flex-direction:column;
+    width:60%;
+    justify-content: center;
+}
+
+.bap_zone > div:nth-child(2){
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 
 .bap_title h6 {
         font-family: 'Inter', sans-serif;
-        font-size: 12vw;
+        font-size: 11vw;
         font-weight: 600;
-        line-height: 280px;
         letter-spacing: 0.08em;
         color: var(--blue-color);
         margin: 0px;
         margin-left:50px;
+        position:relative;
+        top:-50px;
 }
+
+.bap_title h6 span {
+    margin-left:100px;
+}
+
 
 .bap_title h6:nth-child(2){
     margin-left:150px;
 
 }
 
-
-.bap_zone img{
-    position: relative;
-    display: flex;
-    z-index: 2;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 7em;
-    filter: grayscale(100%);
-    top: -570px;
-    left:68%;
-    transform: rotate(7deg);
-    transform-origin: bottom right;
-    transition: 0.3s ease-in-out;
-}
-
-.bap_zone img:hover{
-    transform: rotate(0deg);
-    filter: none;
+.bap_zone_right{
+    width:30%;
+    min-width:400px;
+    height:auto;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:30px;
+    margin-top:50px;
 }
 
 .prochainement{
@@ -82,12 +90,30 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-left: 65%;
     width:20%;
-    top: -500px;
+    min-width:300px;
+    margin-top:50px;
 }
 
 .infosBAP button{
     align-self:flex-start;   
-     margin-top:30px;
+    margin-top:30px;
+}
+
+.bap_zone img{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    flex-direction: row;
+    justify-content: flex-end;
+    transform: rotate(7deg);
+    transform-origin: bottom right;
+    transition: 0.3s ease-in-out;
+    filter: grayscale(1);
+}
+
+.bap_zone img:hover{
+    transform: rotate(0deg);
+    filter: none;
+    filter: grayscale(0);
 }
