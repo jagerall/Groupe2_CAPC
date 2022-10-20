@@ -71,8 +71,6 @@ h5 {
     color: var(--midblack-color)
 }
 
-
-
 article h6 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -164,4 +162,9 @@ article .buttonarrow:hover:after {
     background-color: var(--midblack-color);
     color: var(--white-color);
     margin-top:20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none
 }

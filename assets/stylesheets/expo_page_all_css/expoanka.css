@@ -1,3 +1,12 @@
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .anka {
     width: 330px;
     height: 360px;
@@ -8,10 +17,11 @@
     width: 332px;
     left: 970px;
     top: 1681px;
+    color: var(--white-color);
 }
 
 
-.works span{
+.works span {
     color: var(--orange-color)
 }
 
@@ -22,7 +32,7 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     padding: 10px 16px;
-    border: none
+    border: none;
 }
 
 .childbook {
@@ -32,5 +42,21 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     padding: 10px 16px;
-    border: none
+    border: none;
+}
+
+.blueanka {
+    font-family: 'Inter';
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 130px;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: var(--blue-color);
+}
+
+.black {
+    background-color: var(--midblack-color);
+    color: var(--white-color);
+    margin-top: 20px;
 }
