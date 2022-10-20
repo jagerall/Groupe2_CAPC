@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/stylesheets/typo.css">
+    <link rel="stylesheet" href="./assets/stylesheets/header.css">
+    <link rel="stylesheet" href="./assets/stylesheets/currentExpo.css">
+    <link rel="stylesheet" href="assets/stylesheets/history.css">
+    <link rel="stylesheet" href="./assets/stylesheets/services.css">
+    <link rel="stylesheet" href="./assets/stylesheets/actu.css">
+    <link rel="stylesheet" href="./assets/stylesheets/BAP.css">
+    <link rel="stylesheet" href="assets/stylesheets/zoneContact.css">
+    <link rel="stylesheet" href="./assets/stylesheets/footer.css">
+    <link rel="stylesheet" href="./assets/stylesheets/responsive.css">
+</head>
+
+<body>
+    <!--HEADER NAVBAR-->
+    <section>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Musée
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="#"> Histoire du CAPC </a> </li>
+                            <li> <a href="#"> Nos collections </a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Expositions</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Informations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="#"> Tarifs </a> </li>
+                            <li> <a href="#"> Horaires</a> </li>
+                            <li> <a href="#"> Accès</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Événements
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="#"> Privatisation </a> </li>
+                            <li> <a href="#"> Ateliers</a> </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar_rightNav">
+                <button class="navbar_search-button">
+                    <img src="assets/SVG/logosearch.svg" alt="bouton rechercher">
+                </button>
+                <input type="text" name="search" id="search" placeholder="Rechercher" class="navbar_search-input" />
+            </div>
+        </nav>
+    </section>
+
+<!-- EXPOSITION DU MOMENT SUR PAGE EXPO -->
+
+
+
+
+    <!--ZONE CONTACT-->
+
+    <section>
+        <div class="contact">
+            <div class="contact_img">
+                <img src="./assets/img/logoCAPCcontact.png" alt="logocapc">
+                <div>
+                    <a href="#"><img src="./assets/SVG/insta.svg" alt="compte instagram"></a>
+                    <a href="#"><img src="./assets/SVG/twitter.svg" alt="compte twitter"></a>
+                    <a href="#"><img src="./assets/SVG/facebook.svg" alt="compte facebook"></a>
+                    <a href="#"><img src="./assets/SVG/youtube.svg" alt="compte youtube"></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>CONTACT</h2>
+
+                <form action="/action_page.php">
+
+                    <label for="fname"></label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Nom et Prénom" required>
+
+                    <label for="sujet"></label>
+                    <input type="text" id="number" name="number" placeholder="Téléphone" required><br />
+
+                    <label for="emailAddress"></label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+
+                    <label for="subject"></label>
+                    <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <section>
+
+        <footer>
+
+            <div class="footer_top">
+
+                <ul>
+                    <li>Accueil</li>
+                    <li>Musée</li>
+                    <li>Expositions</li>
+                    <li>Informations</li>
+                    <li>Événements</li>
+                </ul>
+
+                <ul>
+                    <li>L'histoire du CAPC</li>
+                    <li>Nos collections</li>
+                    <li>Tarifs</li>
+                    <li>Horaires</li>
+                    <li>Accès</li>
+                    <li>Ateliers</li>
+                    <li>Privatisation</li>
+                </ul>
+
+                <ul>
+                    <li>Amis du CAPC</li>
+                    <li>Mécénats et partenaires</li>
+                    <li>Équipe</li>
+                    <li>Mairie de Bordeaux</li>
+                </ul>
+
+
+                <ul>
+                    <li>Mentions légales</li>
+                    <li>Données personnelles et cookies</li>
+                    <li>Plan du site</li>
+                </ul>
+
+            </div>
+
+            <div class="footer_bottom">
+
+                <img src="assets/img/logoCAPC_footer.png" alt="Logo du CAPC">
+
+
+
+                <button class="newsletter">Recevoir la newsletter</button>
+
+            </div>
+
+            <div class="footer_bottom_copyright">
+                <p>© 2022 - Tous droits réservés</p>
+            </div>
+
+
+
+
+        </footer>
+
+
+    </section>
+
+
+
+    <!--NE RIEN METTRE APRES, NE PAS TOUCHER JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
