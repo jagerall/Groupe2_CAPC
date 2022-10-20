@@ -32,9 +32,9 @@
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-    background:green;
     height:80px;
     width:100%;
+    background: rgba(12, 12, 12, 0.9);
 }
 
 .navbar_mobile_grp img{
