@@ -55,6 +55,21 @@ h3 {
     color: var(--blue-color);
 }
 
+.services button:nth-child(2)::after,{
+    content: '';
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+
+.services button:nth-child(2)::after {
+    background: var(--blue-color);
+
+}
+
 .black {
     background-color: var(--midblack-color);
     color: var(--white-color);
