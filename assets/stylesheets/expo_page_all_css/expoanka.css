@@ -54,3 +54,9 @@ h3 {
     text-align: center;
     color: var(--blue-color);
 }
+
+.black {
+    background-color: var(--midblack-color);
+    color: var(--white-color);
+    margin-top: 20px;
+}
