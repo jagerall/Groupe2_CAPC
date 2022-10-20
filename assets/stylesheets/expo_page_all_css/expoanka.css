@@ -1,11 +1,36 @@
-anka {
+.anka {
     width: 330px;
     height: 360px;
 }
 
-works {
+.works {
     height: 208px;
     width: 332px;
     left: 970px;
     top: 1681px;
+}
+
+
+.works span{
+    color: var(--orange-color)
+}
+
+.presskit {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none
+}
+
+.childbook {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none
 }
