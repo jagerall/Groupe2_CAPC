@@ -1,10 +1,10 @@
-h3{
-font-family: 'Inter', sans-serif;
-font-size: 16px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .anka {
@@ -20,8 +20,9 @@ text-align: left;
     color: var(--white-color);
 }
 
-span{
-    color: var(--orange-color);
+
+.works span {
+    color: var(--orange-color)
 }
 
 .presskit {
@@ -44,3 +45,12 @@ span{
     border: none;
 }
 
+.blueanka {
+    font-family: 'Inter';
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 130px;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: var(--blue-color);
+}
