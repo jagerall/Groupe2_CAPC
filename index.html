@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./assets/stylesheets/footer.css">
     <link rel="stylesheet" href="./assets/stylesheets/responsive.css">
     <link rel="stylesheet" href="assets/stylesheets/navbar_mobile.css">
+    <link rel="stylesheet" href="assets/stylesheets/carousel_mobile.css">
 </head>
 
 <body>
@@ -230,7 +231,7 @@
                 </article>
 
                 <article class="art2">
-                    <img src="./assets/img/test.png" alt="illustration article top">
+                    <img src="./assets/img/right_picture.png" alt="illustration article top">
                     <div>
                         <div class="information">
                             <date>16.10.2022</date>
@@ -260,9 +261,74 @@
         <section class="splide" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide"><div>test</div></li>
-                    <li class="splide__slide"><div>test2</div></li>
-                    <li class="splide__slide"><div>test3</div></li>
+                    <li class="splide__slide">
+                        <article class="event_article">
+                        <div class="picture">
+                            <img src="./assets/img/top_picture.png"alt="illustration article 4">
+                        </div>
+                
+                        <div class="content">
+            
+                            <div class="text">
+                                <time>30.09.2022 -> 30.10.2022                                </time>
+                                <h6>le capc recrute</h6>
+                                <p>Le Capc Musée d'art contemporain de Bordeaux recherche un·e stagiaire pour son service du développement des publics et de la communication / centre communication.
+                                </p>
+                            </div>
+                
+                            <div class="button_container">
+                                <button class="blackviewmore" href="#">Voir plus -></button>
+                            </div>
+            
+                        </div>
+                        
+            
+                    </article></li>
+                    <li class="splide__slide"><article class="event_article">
+                        <div class="picture">
+                            <img src="./assets/img/left_picture.png"alt="illustration article 4">
+                        </div>
+                
+                        <div class="content">
+            
+                            <div class="text">
+                                <time>19.11.2022 - 12h30 / 18h
+                                </time>
+                                <h6>l'atelier des communs</h6>
+                                <p>Le Capc fêtera ses 50 ans en 2023. À quoi pourrait-il ressembler alors dans 50 ans ? En quoi le Capc constitue-t-il un bien commun et un lieu dans lequel se crée du commun ? Tout le monde est invité à devenir acteur et actrice de ces questionnements et transformations en prenant part à L’Atelier des communs.</p>
+                            </div>
+                
+                            <div class="button_container">
+                                <button class="blackviewmore" href="#">Voir plus -></button>
+                            </div>
+            
+                        </div>
+                        
+            
+                    </article></li>
+                    <li class="splide__slide"><article class="event_article">
+                        <div class="picture">
+                            <img src="./assets/img/right_picture.png"alt="illustration article 4">
+                        </div>
+                
+                        <div class="content">
+            
+                            <div class="text">
+                                <time>16.10.2022
+                                </time>
+                                <h6>visite babel, le tour du jour en quatre-ving monde
+                                </h6>
+                                <p>Artiste et écrivaine d’origine libanaise, Nina Esber utilise son corps comme matériau dans une pratique tournée vers la performance, la vidéo, la photographie et le dessin jouant des notions de répétitions, de simultanéité, parfois d’immobilité et de résistance.</p>
+                            </div>
+                
+                            <div class="button_container">
+                                <button class="blackviewmore" href="#">Voir plus -></button>
+                            </div>
+            
+                        </div>
+                        
+            
+                    </article></li>
                 </ul>
             </div>
         </section>
@@ -272,9 +338,8 @@
                 var splide = new Splide('.splide', {
                     type: 'loop',
                     drag: 'free',
-                    padding:'30px',
-                    perPage:2,
-                    width: '100%',
+                    perPage:1,
+                    width: '400px',
                 });
                 splide.mount();
             });
