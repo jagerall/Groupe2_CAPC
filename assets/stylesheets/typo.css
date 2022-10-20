@@ -33,6 +33,17 @@ time {
     color: var(--grey-color);
 }
 
+h3{
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--white-color)
+}
+
+
 h4 {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
