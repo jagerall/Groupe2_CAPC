@@ -1,18 +1,50 @@
-.BLOCBLANC{
+.bap_zone{
     background: #F8F8F8;
     position: relative;
     z-index: 1;
-    height: 120vh;
+    height:125vh;
 }
 
-.imgPorte{
+.bap_title{
+    display:flex;
+    flex-direction:column;
+}
+
+.bap_title h6 {
+        font-family: 'Inter', sans-serif;
+        font-size: 12vw;
+        font-weight: 600;
+        line-height: 280px;
+        letter-spacing: 0.08em;
+        color: var(--blue-color);
+        margin: 0px;
+        margin-left:50px;
+}
+
+.bap_title h6:nth-child(2){
+    margin-left:150px;
+
+}
+
+
+.bap_zone img{
     position: relative;
     display: flex;
     z-index: 2;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 5em;
+    margin-right: 7em;
     filter: grayscale(100%);
+    top: -570px;
+    left:70%;
+    transform: rotate(7deg);
+    transform-origin: bottom right;
+    transition: 0.3s ease-in-out;
+}
+
+.bap_zone img:hover{
+    transform: rotate(0deg);
+    filter: none;
 }
 
 .prochainement{
@@ -29,18 +61,32 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 140%;
+    letter-spacing:0;
 }
 
 .BAP{
     display: flex;
-    position: absolute;
+    position: relative;
     z-index: 1;
-
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 45px;
 }
 
 .prochainement h2{
     color: var(--darkblack);
 }
 
+.infosBAP{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 65%;
+    width:20%;
+    top: -500px;
+}
 
-
+.infosBAP button{
+    align-self:flex-start;   
+     margin-top:30px;
+}

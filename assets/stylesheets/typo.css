@@ -60,23 +60,15 @@ h5 {
     color: var(--midblack-color)
 }
 
-h6 {
+
+
+article h6 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0em;
     color: var(--darkblack-color);
-}
-
-h7 {
-    font-family: 'Inter', sans-serif;
-    font-size: 200px;
-    font-weight: 600;
-    line-height: 280px;
-    letter-spacing: 0.08em;
-    color: var(--blue-color);
-    margin: 0px;
 }
 
 h8 {
@@ -86,9 +78,9 @@ h8 {
     line-height: 20px;
     letter-spacing: 0em;
     color: var(--midblack-color);
-}
+} 
 
-.currentExpo .button {
+.currentExpo button, .bap_zone button {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
@@ -110,7 +102,7 @@ h8 {
     border: none;
 }
 
-.button:hover {
+.currentExpo button:hover, .bap_zone button:hover {
     box-shadow: 5px 5px 0px 0px var(--darkblack-color);
 }
 
@@ -133,7 +125,7 @@ h8 {
     padding: 10px 16px;
     border: none;
     min-width: 48px;
-    width: auto;
+    width:auto;
     height: 42px;
 }
 
@@ -159,4 +151,6 @@ article .buttonarrow:hover:after {
 
 .blackviewmore {
     background-color: var(--midblack-color);
+    color: var(--white-color);
+    margin-top:20px;
 }
