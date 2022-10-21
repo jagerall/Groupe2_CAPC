@@ -98,8 +98,6 @@
 .infosBAP button{
     align-self:flex-start;   
     margin-top:30px;
-<<<<<<< HEAD:assets/stylesheets/BAP.css
-=======
 }
 
 .bap_zone img{
@@ -119,5 +117,4 @@
     transform: rotate(0deg);
     filter: none;
     filter: grayscale(0);
->>>>>>> d191e40a3f84625545bfbc25a2ccee4c25a61443:assets/stylesheets/expo_page_all_css/BAP.css
 }
