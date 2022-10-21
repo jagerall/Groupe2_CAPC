@@ -10,6 +10,14 @@
     object-fit: cover;
 }
 
+.img_anka_losange{
+    z-index: 10;
+    display: flex;
+    position: relative;
+    left:31em;
+    top: 57em;
+}
+
 .section1 {
     display: flex;
     position: relative;
@@ -20,7 +28,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 70%;
+    width: 60%;
     min-width: 450px;
     height: fit-content;
     background-color: #F8F8F8;
@@ -64,7 +72,7 @@
     color: var(--blue-color);
 }
 
-.img_losange img {
+.img {
     max-width: 400px;
     display: flex;
     position: relative;
@@ -73,17 +81,6 @@
     z-index: 8;
 }
 
-.losange {
-    display: flex;
-    z-index: 10;
-    width: 300px;
-    height: 300px;
-    border: #FF792B solid 5px;
-    transform: matrix(0.7, -0.7, 0.72, 0.7, 0, 0);
-    top: -150vh;
-    left: 53%;
-    margin: 0;
-}
 
 .oeuvres {
     color: #F8F8F8;
