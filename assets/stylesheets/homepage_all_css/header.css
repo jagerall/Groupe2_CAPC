@@ -137,11 +137,12 @@ body {
 }
 
 header {
-	height: 80vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow:hidden;
+	margin-top:100px;
 }
 
 h1 {

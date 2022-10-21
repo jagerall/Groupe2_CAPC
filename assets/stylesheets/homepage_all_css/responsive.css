@@ -45,10 +45,6 @@
 
     /* LOGO HEADER */
 
-    header {
-        margin-top: 200px;
-    }
-
     .logo {
         display: flex;
         flex-direction: column;

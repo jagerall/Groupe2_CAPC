@@ -89,20 +89,23 @@ h8 {
     color: var(--midblack-color);
 } 
 
+.currentExpo a{
+    align-self: flex-end;
+}
+
 .currentExpo button, .bap_zone button {
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
     background-color: var(--blue-color);
     width: fit-content;
     height: fit-content;
+    justify-items: center;
+    align-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     transition: 0.1s;
-    justify-items: center;
-    align-content: center;
     box-sizing: border-box;
     color: var(--white-color);
     font-weight: 700;
