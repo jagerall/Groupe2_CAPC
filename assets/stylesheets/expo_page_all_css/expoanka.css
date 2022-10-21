@@ -65,7 +65,7 @@
 }
 
 .img_losange img {
-    max-width: 70%;
+    max-width: 400px;
     display: flex;
     position: relative;
     top: 15%;
@@ -93,8 +93,8 @@
     flex-direction: column;
     width: 60%;
     flex-wrap: wrap;
-    top: 60em;
-    right: 15em;
+    top: 73em;
+    right: 5em;
 }
 
 .works span {
