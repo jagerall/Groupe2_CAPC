@@ -89,14 +89,12 @@ h8 {
     color: var(--midblack-color);
 } 
 
-.currentExpo a{
-    align-self: flex-end;
-}
 
 .currentExpo button, .bap_zone button {
     display: flex;
     flex-direction: row;
     background-color: var(--blue-color);
+    align-self: flex-end;
     width: fit-content;
     height: fit-content;
     justify-items: center;
@@ -114,8 +112,17 @@ h8 {
     border: none;
 }
 
+.bap_zone button a{
+    color: var(--white-color);
+}
+
+
 .currentExpo button:hover, .bap_zone button:hover {
     box-shadow: 5px 5px 0px 0px var(--darkblack-color);
+}
+
+.currentExpo button a{
+    color:var(--white-color);
 }
 
 .blueviewmore {
@@ -141,6 +148,10 @@ h8 {
     height: 42px;
 }
 
+.buttonarrow a {
+    color: var(--white-color);
+}
+
 .bluearrow {
     background-color: var(--blue-color);
 }
@@ -155,10 +166,13 @@ article .buttonarrow:hover:after {
 
 .whiteviewmore {
     background-color: var(--white-color);
-    color: var(--black-color);
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+}
+
+.whiteviewmore a {
+    color: var(--black-color);
 }
 
 .blackviewmore {
