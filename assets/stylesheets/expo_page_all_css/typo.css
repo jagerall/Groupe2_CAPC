@@ -159,12 +159,14 @@ article .buttonarrow:hover:after {
 }
 
 .blackviewmore {
-    background-color: var(--midblack-color);
+    background-color: var(--darkblack-color);
     color: var(--white-color);
     margin-top:20px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     padding: 10px 16px;
-    border: none
+    border: none;
+    width:auto;
+    height: 42px;
 }

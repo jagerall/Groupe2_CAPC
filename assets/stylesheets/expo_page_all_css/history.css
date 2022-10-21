@@ -1,7 +1,6 @@
 .history {
     margin-bottom: 200px;
     display: flex;
-    min-height: 400px;
     width: 80vw;
     margin-top: 100px;
     border-top: solid 4px var(--white-color);
@@ -12,6 +11,10 @@
     margin-right: auto;
     position: relative;
     overflow: hidden;
+}
+
+.history span {
+    color:var(--orange-color);
 }
 
 .history .stripe {

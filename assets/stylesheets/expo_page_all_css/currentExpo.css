@@ -1,10 +1,12 @@
 .currentExpo {
     width: 100%;
     box-sizing: border-box;
-    height: 900px;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
 .currentExpo .img-block {
@@ -13,20 +15,20 @@
 }
 
 .img1 {
-    position: absolute;
+    position: relative;
     z-index: 1;
-    width: 530px;
-    top: 0;
+    width: 35%;
+    top: -400px;
     left: 10%;
 }
 
 .img2 {
-    position: absolute;
+    position: relative;
     justify-content: space-around;
     z-index: 2;
-    top: 200px;
-    left: 40%;
-    max-width: 600px;
+    top: -100px;
+    left:5%;
+    width:40%;
 }
 
 .bloc_texte {
@@ -35,12 +37,16 @@
     flex-direction: column;
     position: relative;
     width: 50%;
-    min-width: 450px;
+    min-width: 340px;
     height: auto;
     background-color: var(--white-color);
     padding: 40px;
     top: 100px;
-    left: 35%;
+    left:15%;
+}
+
+.bloc_texte img {
+    display:none;
 }
 
 .titre_dates {
