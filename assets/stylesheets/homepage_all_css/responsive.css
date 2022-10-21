@@ -290,6 +290,10 @@
         margin-top:50px;
     }
 
+    .currentExpo button a {
+        color: var(--darkblack-color);
+    }
+
     .currentExpo h2 {
         font-size: 22px;
         line-height: 140%;
@@ -332,5 +336,9 @@
 
     .img2 {
         display: none;
+    }
+
+    .blackviewmore a {
+        color:var(--white-color);
     }
 }
