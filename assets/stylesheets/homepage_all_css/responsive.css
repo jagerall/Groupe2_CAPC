@@ -241,6 +241,11 @@
         margin-bottom: 100px;
     }
 
+    /* ACTU */
+
+    .blackviewmore a {
+        color:var(--white-color);
+    }
 
     /* FOOTER */
 
@@ -338,7 +343,5 @@
         display: none;
     }
 
-    .blackviewmore a {
-        color:var(--white-color);
-    }
+  
 }
